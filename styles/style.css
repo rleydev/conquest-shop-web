@@ -188,4 +188,43 @@ header .right-img-container__buy {
   width: 205px;
   height: 64px;
   border: none;
+}
+
+.popular-section h3 {
+  margin-top: 49px;
+  margin-left: 530px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  color: rgb(27, 26, 23);
+}
+.popular-section a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgb(68, 66, 64);
+  margin-top: 0px;
+  margin-left: 1164px;
+}
+.popular-section__line {
+  margin-top: 11px;
+  margin-left: 1164px;
+}
+.popular-section__items-container {
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 86px;
+}
+.popular-section__items-container__item {
+  display: block;
+}
+.popular-section__items-container__item img {
+  width: 370px;
+  height: 467px;
 }/*# sourceMappingURL=style.css.map */
