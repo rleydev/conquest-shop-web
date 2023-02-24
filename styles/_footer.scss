@@ -1,0 +1,69 @@
+footer {
+    background-color: rgba(68, 66, 64, 1);
+    height: 275px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .footer-logo-container {
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        justify-content: left;
+        align-items: center;
+
+        img {
+            width: 130px;
+            height: 34.02px;
+        }
+
+        &__contacts {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            p {
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                color: rgba(255, 255, 255, 0.75);
+            }
+        }
+    }
+
+    .footer-company-container,
+    .footer-customer-container,
+    .footer-service-container {
+        display: flex;
+        flex-direction: column;
+        gap: 33px;
+        justify-content: left;
+        margin-left: 151px;
+
+        h3 {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            color: rgba(255, 255, 255, 1);
+        }
+
+        &__inf {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            a {
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                color: rgba(255, 255, 255, 0.75);
+            }
+        }
+    }
+
+}

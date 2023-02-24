@@ -349,4 +349,70 @@ header .right-img-container__buy {
 .news-section__right__one {
   width: 377px;
   height: 460px;
+}
+
+footer {
+  background-color: rgb(68, 66, 64);
+  height: 275px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-logo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  justify-content: left;
+  align-items: center;
+}
+footer .footer-logo-container img {
+  width: 130px;
+  height: 34.02px;
+}
+footer .footer-logo-container__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .footer-logo-container__contacts p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.75);
+}
+footer .footer-company-container,
+footer .footer-customer-container,
+footer .footer-service-container {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  justify-content: left;
+  margin-left: 151px;
+}
+footer .footer-company-container h3,
+footer .footer-customer-container h3,
+footer .footer-service-container h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(255, 255, 255);
+}
+footer .footer-company-container__inf,
+footer .footer-customer-container__inf,
+footer .footer-service-container__inf {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .footer-company-container__inf a,
+footer .footer-customer-container__inf a,
+footer .footer-service-container__inf a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.75);
 }/*# sourceMappingURL=style.css.map */
